@@ -3,4 +3,4 @@ param (
     [string]$infile
 )
 
-.\winhash.ps1 $infile MD5
+Invoke-Expression "$PSScriptRoot\winhash.ps1 $infile MD5"
