@@ -1,5 +1,0 @@
-todo: clean dis shit up
-    vbox, nvram, logs
-        C:\Users\human\VirtualBox VMs\TEMPLATE-Win11-RE-Standard-Rolling
-    vdi
-        C:\Users\human\TEMPLATE-Win11-RE-Standard-Rolling

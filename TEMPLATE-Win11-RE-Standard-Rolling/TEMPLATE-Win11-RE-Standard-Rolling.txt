@@ -14,10 +14,9 @@ vm:
                     Installer: VBoxWindowsAdditions-amd64.exe
         bidirectional copy and paste enabled
         3d acceleration enabled
-
         vdi:
-            name: todo: change to: TEMPLATE-Win11-RE-Standard-Rolling
-            size: 80gb
+            name: TEMPLATE-Win11-RE-Standard-Rolling
+            size: 120gb
                 dynamically allocated 
         iso:
             name: Windows 11 Pro English x64 BiT Activated.iso
