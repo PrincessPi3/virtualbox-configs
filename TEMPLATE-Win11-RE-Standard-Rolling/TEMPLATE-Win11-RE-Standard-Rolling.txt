@@ -50,7 +50,7 @@ software:
                 Version:
                     Version: 7.5.2
         Winget:
-            Install: https://aka.ms/getwinget (down last check)
+            Install: https://aka.ms/getwinget
                 HashTools:
                     Installer: `winget install -e --id BinaryFortress.HashTools`
         Ghidra
