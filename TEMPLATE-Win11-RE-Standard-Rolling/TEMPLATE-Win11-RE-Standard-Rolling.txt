@@ -49,10 +49,6 @@ software:
                 Updated: 07/16/2025
                 Version:
                     Version: 7.5.2
-        Winget:
-            Install: https://aka.ms/getwinget
-                HashTools:
-                    Installer: `winget install -e --id BinaryFortress.HashTools`
         Ghidra
             Canonical Latest URL: https://github.com/NationalSecurityAgency/ghidra/releases/latest
             Version:
@@ -67,7 +63,7 @@ software:
                 Updated: 07/16/2025
                 Debugger client version: 1.2506.12002.0
                 Debugger engine version: 10.0.27871.1001
-                Installer:
+                Installer: windbg.appinstaller
                     md5:
                     sha256:
         sysinternals
@@ -124,12 +120,12 @@ software:
                     md5:
                     sha256:
         # Visual Studio?
-        # NetMiner:
+        # NetMiner?
         Bait Software:
             Crypto wallets:
                 trezor
                 ledger
-                that E one
+                exodus
                 metamask
             Silly Named Files:
                 *.txt, *.xlsx, *.doc, *.pdf:
