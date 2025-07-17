@@ -1,0 +1,19 @@
+Periodical:
+    Updates:
+        Update Software:
+        Update VirtualBox:
+        Update Windows:
+
+Configs:
+    VirtualBox:
+        Change VirtualBox Config:
+        Change VM VirtualBox Config:
+    Windows:
+
+Add:
+    Software:
+    Windows Feature:
+
+Remove:
+    Software:
+    Windows Feature:

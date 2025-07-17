@@ -67,7 +67,12 @@ software:
                 Install all features
                 Do not restrict packet capture to administrators
                 Rebooted once installed/updated
-        Fiddler
+        Fiddler Classic
+            Canonical Latest URL: https://www.telerik.com/download/fiddler
+            Version:
+                Updated: 07/16/2025
+                Version: v1.37.4 (commit b6b24df)
+                Installer: FiddlerSetup.5.0.20253.3311-latest.exe
         NetMiner
         NoSleepgit branch -M main
         virtualbox guest additions (7.1.12) *mirrored under vm configs
