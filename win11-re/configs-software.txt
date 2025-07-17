@@ -3,8 +3,10 @@ vm:
     VirtualBox (Version 7.1.12 r169651 (Qt6.5.3)
     vm configs:
         name: TEMPLATE-Win11-RE-Standard-Rolling
+        type: Windows 11 (64-bit)
         ram: 8192mb
         CPUs: 8
+        skip unattended installation
         virtualbox guest additions (7.1.12) *mirrored under software
         bidirectional copy and paste enabled
         3d acceleration enabled
@@ -16,7 +18,7 @@ vm:
         iso:
             name: Windows 11 Pro English x64 BiT Activated.iso
             md5: 
-            sha256: 
+            sha256: 15fecff356411d43c77df040e1847427402b0e09da069bf1db0cb754932075b9
             magnet: magnet:?xt=urn:btih:B47FB2B675F08A14D1A8023561503C623487A57A&dn=Windows%2011%20Pro%20English%20x64%20BiT%20Activated&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce
             todo: get an actual legit liscence ffs lmfao
 
@@ -33,11 +35,37 @@ install configs:
 software:
     Protocol: routinely update all software to latest stable release as needed. log changes.
         Ghidra
-            Canonical URL: 
+            Canonical Latest URL: https://github.com/NationalSecurityAgency/ghidra/releases/latest
+            Version:
+                Updated: 07/16/2025
+                Version: 11.4 (commit aed1cf1)
         WinDBG
+            Canonical Latest URL: https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/
+            Version:
+                Updated: 07/16/2025
+                Debugger client version: 1.2506.12002.0
+                Debugger engine version: 10.0.27871.1001
         sysinternals
+            Version:
+                Updated: 07/16/2025
+                Version: assorted, dependant on updated date
+            Canonical Latest URL: https://download.sysinternals.com/files/SysinternalsSuite.zip
         IMHEX
+            Canonical Latest URL: https://github.com/WerWolv/ImHex/releases/latest
+            Version:
+                Updated: 07/16/2025
+                Version: v1.37.4 (commit b6b24df)
+                Installer: 64-bit msi installer
         Wireshark
+            Canonical Latest URL: https://www.wireshark.org/download.html
+            Version:
+                Updated: 07/16/2025
+                Version: 4.4.8
+                    npcap: 1.80
+                    usbpcap: 1.5.4.0
+            Installer: Wireshark-4.4.8-x64.exe
+                Install all features
+                Do not restrict packet capture to administrators
         Fiddler
         NetMiner
         NoSleep
