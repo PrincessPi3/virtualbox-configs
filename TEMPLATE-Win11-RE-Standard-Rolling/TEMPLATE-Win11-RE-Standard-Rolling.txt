@@ -34,6 +34,13 @@ vm:
                     What was your first pet's name? dinkle dorkus
                     What was your childhood nickname? THE_MEAT
                     What's the first name of your oldest cousin? greybeard the wise
+            windows running configs:
+                added to PATH:
+                    C:\Users\dinkleberg\Desktop\Toolbox\SysinternalsSuite
+                    C:\Users\dinkleberg\Desktop\Toolbox\Scripts
+
+
+
 software:
     Protocol: routinely update all software to latest stable release as needed. log changes.
         Java JDK 21:
