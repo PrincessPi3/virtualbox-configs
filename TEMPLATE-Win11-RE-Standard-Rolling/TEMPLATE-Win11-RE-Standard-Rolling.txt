@@ -66,9 +66,10 @@ software:
             Installer: Wireshark-4.4.8-x64.exe
                 Install all features
                 Do not restrict packet capture to administrators
+                Rebooted once installed/updated
         Fiddler
         NetMiner
-        NoSleep
+        NoSleepgit branch -M main
         virtualbox guest additions (7.1.12) *mirrored under vm configs
         Visual Studio?
 Windows Updates:
