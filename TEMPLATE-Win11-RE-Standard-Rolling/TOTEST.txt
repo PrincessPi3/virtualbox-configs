@@ -10,5 +10,6 @@ OPTIMIZE VM
                 read only
                     md5
                     sha256
+128mb->256mb video memory
 automatic software update check script?
 tools install script?

@@ -1,5 +1,27 @@
-software:
+fixes:
+    move live vdi to ssd and update configz
+        reboot hardareeee
+add software:
+    java jre
+    sha512sum
     sha256sum
+    sha1sum
     md5sum
     openssl
     pyenv: python3
+    windows terminal
+        latest powershell
+        wsl kali
+    gnupg/kleopatra?
+add aesthetics:
+    comic code
+    kali lincox wallpaper
+add bait:
+    crypto wallets:
+        exodus
+        dat etherr fuckin one in browser
+    sensitive file names:
+        pass.txt
+        passwords.txt
+        taxes.docx
+        taxes.pdf
