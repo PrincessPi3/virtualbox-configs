@@ -7,7 +7,11 @@ vm:
         ram: 8192mb
         CPUs: 8
         skip unattended installation
-        virtualbox guest additions (7.1.12) *mirrored under software
+        Virtualbox Guest Additions:
+            Updated: 07/16/2025
+            Version: 7.1.12 *mirrored under software
+                Installed via VirtualBox mounting the installer files as a CD-ROM drive
+                    Installer: VBoxWindowsAdditions-amd64.exe
         bidirectional copy and paste enabled
         3d acceleration enabled
 
@@ -21,17 +25,16 @@ vm:
             sha256: 15fecff356411d43c77df040e1847427402b0e09da069bf1db0cb754932075b9
             magnet: magnet:?xt=urn:btih:B47FB2B675F08A14D1A8023561503C623487A57A&dn=Windows%2011%20Pro%20English%20x64%20BiT%20Activated&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce
             todo: get an actual legit liscence ffs lmfao
-
-install configs:
-    Protocol: Do not adjust these without reason and log
-        region: us
-        keyboard: us
-        name: dinkleberg
-        password: password123
-        security questions:
-            What was your first pet's name? dinkle dorkus (dick dorkus?)
-            What was your childhood nickname? THE_MEAT
-            What's the first name of your oldest cousin? greybeard the wise
+        windows install configs:
+            Protocol: Do not adjust these without reason and log
+                region: us
+                keyboard: us
+                name: dinkleberg
+                password: password123
+                security questions:
+                    What was your first pet's name? dinkle dorkus
+                    What was your childhood nickname? THE_MEAT
+                    What's the first name of your oldest cousin? greybeard the wise
 software:
     Protocol: routinely update all software to latest stable release as needed. log changes.
         Ghidra
@@ -67,16 +70,28 @@ software:
                 Install all features
                 Do not restrict packet capture to administrators
                 Rebooted once installed/updated
-        Fiddler Classic
+        Fiddler Classic:
             Canonical Latest URL: https://www.telerik.com/download/fiddler
             Version:
                 Updated: 07/16/2025
-                Version: v1.37.4 (commit b6b24df)
-                Installer: FiddlerSetup.5.0.20253.3311-latest.exe
-        NetMiner
-        NoSleepgit branch -M main
-        virtualbox guest additions (7.1.12) *mirrored under vm configs
-        Visual Studio?
+                Version: 5.0.20253.3311
+                    Built: Monday, March 31, 2025
+                        64-bit AMD64, VM: 61.0mb, WS: 106.0mb
+                        .NET 4.8 WinNT 10.0.26100.0
+                        Installer: FiddlerSetup.5.0.20253.3311-latest.exe
+        NoSleep
+            Canonical Latest URL: https://github.com/CHerSun/NoSleep/releases/latest
+            Version:
+                Updated: 07/16/2025
+                Version: 1.3.0 (commit 048a43c)
+                Portable: NoSleep.exe
+        Virtualbox Guest Additions:
+            Updated: 07/16/2025
+            Version: 7.1.12 *mirrored under vm configs
+                Installed via VirtualBox mounting the installer files as a CD-ROM drive
+                    Installer: VBoxWindowsAdditions-amd64.exe
+        # Visual Studio?
+        # NetMiner:
 Windows Updates:
     Protocols:
         routinley install latest Windows Updates log changed.

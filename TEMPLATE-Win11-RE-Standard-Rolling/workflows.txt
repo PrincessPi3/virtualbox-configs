@@ -17,3 +17,50 @@ Add:
 Remove:
     Software:
     Windows Feature:
+
+Analysis Procedures:
+    Environment:
+            sysinternals:    
+                sysmon:
+                    monitor detailed system info
+                cli:
+                    psinfo:
+                        list info about system
+                    pslist:
+                        list detailed information about processes
+                    psloglist:
+                        list windows event logs
+                    psservice:
+                        list and control services
+                    debugview:
+                        (old? 2019) utility to output kernel-level and win32 debug output to local or over TCP/IP
+    Static:
+        Ghidra
+        WinDBG:
+        sysinternals:
+            strings
+                shows printable strings in a file
+    Dynamic:
+        sysinternals:
+            procmon:
+                monitors processes in detail:
+                    settings:
+                    refine to specific process:
+            process explorer:
+                real time stats and details of processes
+                useful for finding a process or finding a process or file lock
+            procdump:
+                dumps gigabytes worth of memory dumps of a process for later analysis
+                    WinDBG
+                    Ghidra?
+            diskmon:
+                monitors all hard disk activity
+            tcpview:
+                detailed dumps of tcp traffic
+            vmmap:
+                visualizes virtual and physical memory analysis of a process
+Reporting Procedures:
+    # forensices and precise log shit
+    sysinternals:
+        zoomit
+            screen records actions, key presses, clicks, and allows annotation
