@@ -36,29 +36,56 @@ vm:
                     What's the first name of your oldest cousin? greybeard the wise
 software:
     Protocol: routinely update all software to latest stable release as needed. log changes.
+        Java JDK 21:
+            Canonical Latest URL: https://adoptium.net/temurin/releases
+            Updated: 07/16/2025
+            Version:
+                Version: JDK 21 LTS 64-bit Windows
+                Installer: OpenJDK21U-jdk_x64_windows_hotspot_21.0.7_6.msi
+                    md5:
+                    sha256:
+        Windows Store:
+            PowerShell:
+                Updated: 07/16/2025
+                Version:
+                    Version: 7.5.2
+        Winget:
+            Install: https://aka.ms/getwinget (down last check)
+                HashTools:
+                    Installer: `winget install -e --id BinaryFortress.HashTools`
         Ghidra
             Canonical Latest URL: https://github.com/NationalSecurityAgency/ghidra/releases/latest
             Version:
                 Updated: 07/16/2025
                 Version: 11.4 (commit aed1cf1)
                 Installer: ghidra_11.4_PUBLIC_20250620.zip
+                    md5:
+                    sha256:
         WinDBG
             Canonical Latest URL: https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/
             Version:
                 Updated: 07/16/2025
                 Debugger client version: 1.2506.12002.0
                 Debugger engine version: 10.0.27871.1001
+                Installer:
+                    md5:
+                    sha256:
         sysinternals
+            Canonical Latest URL: https://download.sysinternals.com/files/SysinternalsSuite.zip
             Version:
                 Updated: 07/16/2025
                 Version: assorted, dependant on updated date
-            Canonical Latest URL: https://download.sysinternals.com/files/SysinternalsSuite.zip
+                Zip File: SysinternalsSuite.zip
+                    md5:
+                    sha256:
         IMHEX
             Canonical Latest URL: https://github.com/WerWolv/ImHex/releases/latest
             Version:
                 Updated: 07/16/2025
                 Version: v1.37.4 (commit b6b24df)
                 Installer: 64-bit msi installer
+                    md5:
+                    sha256:
         Wireshark
             Canonical Latest URL: https://www.wireshark.org/download.html
             Version:
@@ -67,6 +94,8 @@ software:
                     npcap: 1.80
                     usbpcap: 1.5.4.0
             Installer: Wireshark-4.4.8-x64.exe
+                md5:
+                sha256:
                 Install all features
                 Do not restrict packet capture to administrators
                 Rebooted once installed/updated
@@ -79,7 +108,9 @@ software:
                         64-bit AMD64, VM: 61.0mb, WS: 106.0mb
                         .NET 4.8 WinNT 10.0.26100.0
                         Installer: FiddlerSetup.5.0.20253.3311-latest.exe
-        NoSleep
+                            md5:
+                            sha256:
+        NoSleep:
             Canonical Latest URL: https://github.com/CHerSun/NoSleep/releases/latest
             Version:
                 Updated: 07/16/2025
@@ -89,9 +120,27 @@ software:
             Updated: 07/16/2025
             Version: 7.1.12 *mirrored under vm configs
                 Installed via VirtualBox mounting the installer files as a CD-ROM drive
-                    Installer: VBoxWindowsAdditions-amd64.exe
+                Installer: VBoxWindowsAdditions-amd64.exe
+                    md5:
+                    sha256:
         # Visual Studio?
         # NetMiner:
+        Bait Software:
+            Crypto wallets:
+                trezor
+                ledger
+                that E one
+                metamask
+            Silly Named Files:
+                *.txt, *.xlsx, *.doc, *.pdf:
+                    passwords
+                    taxes
+                    bank
+            Google Chrome:
+                Password Managers:
+                Stored:
+                    passwords
+                    cc numbers
 Windows Updates:
     Protocols:
         routinley install latest Windows Updates log changed.
