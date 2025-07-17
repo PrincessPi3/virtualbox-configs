@@ -1,0 +1,5 @@
+
+Algorithm : MD5
+Hash      : AF043E7883994A084E573AD91F974F12
+Path      : C:\Users\dinkleberg\Downloads\imhex-1.37.4-Windows-x86_64.msi
+

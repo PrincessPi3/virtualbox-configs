@@ -1,0 +1,5 @@
+
+Algorithm : MD5
+Hash      : 98CC67BAD0C77A7B4212AC8BDC37412C
+Path      : C:\Users\dinkleberg\Downloads\OpenJDK21U-jdk_x64_windows_hotspot_21.0.7_6.msi
+

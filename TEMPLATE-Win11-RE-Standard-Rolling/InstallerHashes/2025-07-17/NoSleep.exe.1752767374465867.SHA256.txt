@@ -1,0 +1,5 @@
+
+Algorithm : SHA256
+Hash      : B6AB80C31C2F1274853002E298AF035A0B020660A05365964BF87F70EFA33705
+Path      : C:\Users\dinkleberg\Downloads\NoSleep.exe
+

@@ -1,0 +1,5 @@
+
+Algorithm : SHA256
+Hash      : 427D60BDDCC36E0115145682AF07B5A1E77AA5BFA555748B695C0BC0D76AA599
+Path      : C:\Users\dinkleberg\Downloads\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle
+

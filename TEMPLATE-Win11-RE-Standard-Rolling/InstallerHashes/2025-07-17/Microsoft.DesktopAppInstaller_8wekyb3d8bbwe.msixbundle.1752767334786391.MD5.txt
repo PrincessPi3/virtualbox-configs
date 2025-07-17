@@ -1,0 +1,5 @@
+
+Algorithm : MD5
+Hash      : 1B2A1A8F50B6C9ED51891511B07B2275
+Path      : C:\Users\dinkleberg\Downloads\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle
+

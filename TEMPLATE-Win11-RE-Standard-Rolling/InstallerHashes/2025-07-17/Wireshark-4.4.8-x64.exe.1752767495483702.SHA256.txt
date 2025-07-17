@@ -1,0 +1,5 @@
+
+Algorithm : SHA256
+Hash      : 8E31AA3DEDA2708887C732DED9B984A9771C7254A257274BBBB8DABD4959DF4E
+Path      : C:\Users\dinkleberg\Downloads\Wireshark-4.4.8-x64.exe
+

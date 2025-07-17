@@ -1,0 +1,5 @@
+
+Algorithm : MD5
+Hash      : 7B74AD653B825563C9C53C6EC3DDC868
+Path      : C:\Users\dinkleberg\Downloads\ghidra_11.4_PUBLIC_20250620.zip
+

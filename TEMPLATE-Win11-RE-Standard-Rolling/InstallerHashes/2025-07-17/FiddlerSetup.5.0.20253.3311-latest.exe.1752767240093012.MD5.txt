@@ -1,0 +1,5 @@
+
+Algorithm : MD5
+Hash      : 5E326A700AE3CD9EE6FD7312B40302E1
+Path      : C:\Users\dinkleberg\Downloads\FiddlerSetup.5.0.20253.3311-latest.exe
+

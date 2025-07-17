@@ -1,0 +1,5 @@
+
+Algorithm : SHA256
+Hash      : FEB28045BD39D010CCED58642BF4A9BE03AAC4CFA6C842835EDB581CE3C2B93A
+Path      : C:\Users\dinkleberg\Downloads\windbg.appinstaller
+

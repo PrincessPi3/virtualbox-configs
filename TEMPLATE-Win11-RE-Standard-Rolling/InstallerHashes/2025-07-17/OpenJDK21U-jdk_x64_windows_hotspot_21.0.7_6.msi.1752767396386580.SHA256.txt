@@ -1,0 +1,5 @@
+
+Algorithm : SHA256
+Hash      : 168E3C710448DBDD7E6FE2463B867339A72BE11A7C8615D72D19FB26572D3619
+Path      : C:\Users\dinkleberg\Downloads\OpenJDK21U-jdk_x64_windows_hotspot_21.0.7_6.msi
+

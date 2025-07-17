@@ -1,0 +1,5 @@
+
+Algorithm : SHA256
+Hash      : D43CEBEE2F9783E16267D2DB2362A56714CB19943AE192C498C3F48924DF6265
+Path      : C:\Users\dinkleberg\Downloads\FiddlerSetup.5.0.20253.3311-latest.exe
+

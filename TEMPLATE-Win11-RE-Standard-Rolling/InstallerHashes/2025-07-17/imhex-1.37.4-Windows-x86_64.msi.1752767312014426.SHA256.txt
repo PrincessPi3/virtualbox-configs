@@ -1,0 +1,5 @@
+
+Algorithm : SHA256
+Hash      : F31F41EBF54DB8145113C0CF658757F3A5BD033AC64C88ED80CDCBFF543529E5
+Path      : C:\Users\dinkleberg\Downloads\imhex-1.37.4-Windows-x86_64.msi
+
