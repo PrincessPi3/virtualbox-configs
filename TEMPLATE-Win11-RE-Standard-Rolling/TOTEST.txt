@@ -1,0 +1,14 @@
+OPTIMIZE VM
+    move vdi to ssd
+        vdi revision control:
+            live vdi on ssd
+            template on hdd
+                read only
+                    md5
+                    sha256
+            previous versions on hdd
+                read only
+                    md5
+                    sha256
+automatic software update check script?
+tools install script?

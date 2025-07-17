@@ -42,6 +42,7 @@ software:
             Version:
                 Updated: 07/16/2025
                 Version: 11.4 (commit aed1cf1)
+                Installer: ghidra_11.4_PUBLIC_20250620.zip
         WinDBG
             Canonical Latest URL: https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/
             Version:

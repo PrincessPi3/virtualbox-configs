@@ -61,6 +61,17 @@ Analysis Procedures:
                 visualizes virtual and physical memory analysis of a process
 Reporting Procedures:
     # forensices and precise log shit
-    sysinternals:
-        zoomit
-            screen records actions, key presses, clicks, and allows annotation
+    Logging:
+        General:
+            Hash Alogs:
+                sha256
+                md5
+            Time Format: Unix Epoch Microseconds
+        Changes:
+            Software:
+            Windows VM Configuration:
+            VirtualBox Configuration:
+    Tools:
+        sysinternals:
+            zoomit:
+                screen records actions, key presses, clicks, and allows annotation
